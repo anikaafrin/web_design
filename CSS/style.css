@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+	
+	
+}
+ul,ol{
+	
+	list-style: none;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,a{
+	padding:0;
+	margin:0;
+}
+body{
+	
+}
+/* navigation part css start */
+.anika{
+	clear: both;
+}
+nav{
+	background-color: black;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.logo{
+	width: 30%;
+	/* height: 1%; */
+	float: left;
+}
+
+.menu{
+	width: 70%;
+	float: left;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	padding: 10px 30px;
+}
+.menu ul li a{
+	color: white;
+	
+}
+/* navigation part css end */
+
+
+/* benner part css start */
+
+.banner{
+	background: url(../images/car.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.banner_overlay{
+	padding: 170px 0;
+	background-color: rgba(0,0,0,0.6);
+	
+}
+.banner_content{
+	color: white;
+}
+
+.banner_content h1{
+	font-size: 70px;
+	font-family: monospace;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+.banner_content h4{
+	font-size: 40px;
+	font-family: monospace;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+
+.banner_content a{
+	color: white;
+	font-size: 18px;
+	background-color: gray;
+	padding: 10px 30px;
+	border-radius: 30px;
+}
+
+/* banner part css end */
